@@ -20,6 +20,7 @@ for i in range(2, int(math.sqrt(a)+1)):
         if firstFactorPrinted == False:
             print('{0}'.format(i), end = "")
             firstFactorPrinted = True
+            a=a/i
         
         else:
             print('*{0}'.format(i), end = "")
